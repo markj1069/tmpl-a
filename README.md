@@ -1,2 +1,2 @@
-# project
-File Structure Template for Program Development
+# Project
+Article Template in Markdown
