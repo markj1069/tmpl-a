@@ -1,4 +1,4 @@
-define(`dc_title', `Title'')dnl
+define(`dc_title', `Title')dnl
 define(`dc_title_alternative', `N/A')dnl
 define(`dc_title_short', `Title--Short')dnl
 define(`dc_title_subtitle', `N/A')dnl
@@ -13,14 +13,14 @@ define(`dc_keyword_3', `N/A')dnl
 define(`dc_keyword_4', `N/A')dnl
 define(`dc_keyword_5', `N/A')dnl
 define(`dc_keyword_6', `N/A')dnl
-define(`dc_keywords', `dc_keyword_1, dc_keyword_2, dc_keyword_3, dc_keyword_4, dc_keyword_5, dc_keyword_6')dnl
-define(`dc_subject',  `Mechanics, Electricity & Magnetism, Waves & Optics,
-                       Thermal & Statistical Physics, Modern Physics,
-                       Condensed Matter Physics, Nuclear Physics,
-                       High Energy/Particle Physics, Biophysics,
-                       Chemical/Molecular Physics, Quantum Mechanics,
-                       Mathematical/Numerical Methods, Experimental Labs,
-                       Astronomy/Astrophysics, Other')dnl
+define(`dc_keywords', `dc_keyword_1; dc_keyword_2; dc_keyword_3; dc_keyword_4; dc_keyword_5; dc_keyword_6')dnl
+define(`dc_subject',  `Mechanics; Electricity & Magnetism; Waves & Optics;
+                       Thermal & Statistical Physics; Modern Physics;
+                       Condensed Matter Physics; Nuclear Physics;
+                       High Energy/Particle Physics; Biophysics;
+                       Chemical/Molecular Physics; Quantum Mechanics;
+                       Mathematical/Numerical Methods; Experimental Labs;
+                       Astronomy/Astrophysics; Other')dnl
 define(`dc_description', `|
     Maecenas a magna facilisis,
     tincidunt quam eget,
@@ -97,9 +97,9 @@ define(`dc_language', `en-US')dnl
 define(`dc_accrualMethod', `Item Creation')dnl
 define(`dc_accrualPeriodicity', `(N/A)')dnl
 define(`dc_accrualPolicy', `(N/A)')dnl
-define(`dc_audience_educationLevel', `High School,
-                                       First Year,
-                                       Beyond First Year,
+define(`dc_audience_educationLevel', `High School;
+                                       First Year;
+                                       Beyond First Year;
                                        Advanced')dnl # Select education levels.
 define(`dc_audience', `dc_audience_educationLevel')dnl # Select appropriate items.
 define(`dc_instructionalMethod', `(N/A)')dnl
