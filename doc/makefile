@@ -5,6 +5,7 @@
 BIBLIOGRAPHY  = /mnt/d/db/Zotero/My-Library.yaml
 DOC = doc
 MAC = /usr/bin/m4
+MACLIB = /usr/local/lib/m4
 PANDOC = /usr/bin/pandoc
 RM = /usr/bin/rm
 SED = /usr/bin/sed
@@ -33,11 +34,11 @@ all:	doc.o.mkd doc.o.yaml doc.m4 $(BIBLIOGRAPHY)
     	--output=$(DOC).pdf
 
 doc.o.yaml yaml:	doc.m4 doc.yaml
-	$(MAC) doc.m4 doc.yaml >doc.yaml.tmp # Build a usable YAML file.
+	$(MAC) -I $(MACLIB) doc.m4 doc.yaml >doc.yaml.tmp # Build a usable YAML file.
 	$(SED) -e '/(N\/A)/d' doc.yaml.tmp >doc.o.yaml   # Remove unneeded Dublin Core Variables.
 
 doc.o.mkd:		doc.m4 $(DOC).mkd doc.o.yaml
-	$(MAC) doc.m4 $(DOC).mkd >doc.o.mkd
+	$(MAC) -I $(MACLIB) doc.m4 $(DOC).mkd >doc.o.mkd
 
 doc.html html:	doc.o.mkd doc.o.yaml doc.m4 $(BIBLIOGRAPHY)
 	$(PANDOC) doc.o.mkd \

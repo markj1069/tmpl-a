@@ -74,10 +74,9 @@ title: "dc_title"
 title.short: "dc_title_short"
 author: "dc_creator"
 date: "dc_date"
-subject: "dc_keywords"
+subject: "dc_subject"
 stand-alone: true
 keywords: "dc_keywords"
 description: "dc_description"
 lang: "dc_language"
-test: "dc_creator_jobTitle"
 ...
