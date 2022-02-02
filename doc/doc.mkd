@@ -17,7 +17,7 @@ Interdum velit laoreet id donec ultrices tincidunt arcu non sodales. Aenean phar
 Integer nec leo ut ligula convallis fringilla in id tortor. Donec a nibh sed magna tempus cursus cursus id nulla. Duis lacinia sed leo ut commodo. Sed mauris neque, iaculis vitae auctor sit amet, semper vitae libero. Cras tincidunt felis eu turpis bibendum eleifend. Donec sollicitudin lectus justo, a interdum libero lobortis elementum. Integer eget mauris accumsan, mattis velit ac, varius diam. Integer vel efficitur est. Maecenas quis efficitur lectus, et interdum lorem.
 
 
-![J.J. Thompson's Gas Discharge Tube](img/JJ-Thompson-Gas-Discharge-Tube-cabinet3_2.jpg){#fig:one}
+![J.J. Thompson's Gas Discharge Tube](img/JJ-Thompson-Gas-Discharge-Tube-cabinet3_2.jpg "The gas discharge tube used by J.J. Thompson is on display that the Museum at the Cavendish Laboratory[@museumatthecavendishlabratoryThompsonGasDischarge2015]."){#fig:one}
 
 The gas discharge tube used by J.J. Thompson is on display that the Museum at the Cavendish Laboratory[@museumatthecavendishlabratoryThompsonGasDischarge2015].
 
@@ -36,8 +36,6 @@ Proin nisl enim, lobortis ac lorem nec, hendrerit elementum ante. Orci varius na
 ## Acknowledgements
 
 Sed eget odio elit. Morbi facilisis velit ut sodales blandit. Sed ac nisi nec massa mollis condimentum. Cras posuere odio purus, quis semper nisl hendrerit sit amet. Proin dictum tincidunt efficitur. Ut vel nisl nisi. Aenean tellus orci, cursus eu convallis a, porttitor in nulla.
-
-
 
 ## Table Example
 

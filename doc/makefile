@@ -24,13 +24,13 @@ SED = /usr/bin/sed
 all:	doc.o.mkd doc.o.yaml doc.m4 $(BIBLIOGRAPHY)
 	$(PANDOC) doc.o.mkd \
     	--read=markdown --write=html5 --mathjax \
-    	--citeproc --bibliography=$(BIBLIOGRAPHY) \
+    	--filter=pandoc-xnos --citeproc --bibliography=$(BIBLIOGRAPHY) \
     	--metadata=link-citations --metadata-file=doc.o.yaml \
     	--standalone --shift-heading-level-by=-1 \
     	--output=$(DOC).html
 	$(PANDOC) doc.o.mkd \
     	--read=markdown --write=pdf \
-    	--citeproc --bibliography=$(BIBLIOGRAPHY) \
+    	--filter=pandoc-xnos --citeproc --bibliography=$(BIBLIOGRAPHY) \
     	--metadata=link-citations --metadata-file=doc.o.yaml \
     	--standalone --shift-heading-level-by=-1 \
     	--output=$(DOC).pdf
